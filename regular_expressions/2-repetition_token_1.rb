@@ -1,3 +1,3 @@
 #!/usr/bin/env ruby
-# 2-repetition_token_1.rb
-puts ARGV[0].scan(/hb?tn/).join
+# a Ruby script that accepts one argument and pass it to a regular expression matching method
+puts ARGV[0].scan(/hb{0,1}tn/).join
