@@ -1,3 +1,3 @@
 #!/usr/bin/env ruby
-# Repetition Token #3
-puts ARGV[0].scan(/hbt*n/).join
+# a Ruby script that accepts one argument and pass it to a regular expression matching method
+puts ARGV[0].scan(/hbt{0,10}n/).join
